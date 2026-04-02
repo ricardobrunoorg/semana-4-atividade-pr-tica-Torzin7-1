@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* CARD */
@@ -75,3 +76,57 @@ body {
     text-align: center;
     padding: 10px;
 }
+.menu {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    /* TESTE (pode apagar depois) */
+    body {
+        background: #e6f2ff;
+    }
+
+    .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.menu a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+    /* PESQUISA */
+    .pesquisa input {
+        width: 80%;
+    }
+
+    /* BANNER */
+    .banner {
+        padding: 40px 10px;
+    }
+
+    /* CARDS */
+    .lista {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+}
+.menu {
+    background: red !important;
+}
+
+
+
