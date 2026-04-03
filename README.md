@@ -19,13 +19,21 @@ O projeto consiste em uma aplicação web que apresenta uma coleção de jogador
 ## Print do(s) wireframe(s) criado
 > Sugestão, use o Excalidraw para isso. Utilize esse [template básico](https://excalidraw.com/#json=LU-8hwcQEwzk11FwO8Opo,qPU9K6cNUEzlXzwOuKMIlQ) para você começar. 
 
-<<  ![Wireframe](wireframe.png)>>
+![Wireframe](wireframe.png)
 
 
 
 ## Print da home-page criada
 
-<<  ![Home](site.png) >>
+![Home](site.png)
 
 
 [def]: wireframe.png
+##  Responsividade
+O site foi desenvolvido utilizando CSS3 com Flexbox e Media Queries, permitindo adaptação para diferentes tamanhos de tela, como desktop e dispositivos móveis.
+##  Tecnologias utilizadas
+- HTML5
+- CSS3
+##  Versão Mobile
+
+![Mobile](sitet.png)
